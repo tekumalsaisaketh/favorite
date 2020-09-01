@@ -1,0 +1,21 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	font-size: 16px;
+	background-color: black;
+}
+.row{
+	position: absolute;
+	top: 40px;
+	width: 100%;
+	margin-left: 2.5%
+}
+.col-md-4{
+	color: #E3E0D7;
+	background-color: grey;
+	width: 30%;
+
+	padding:10px;
+	margin-right: 2.5%;
+}
