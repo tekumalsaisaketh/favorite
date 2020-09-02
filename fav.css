@@ -23,6 +23,8 @@ body{
 #icon{
 	margin-right: 2px;
 	font-size: 20px;
+
+	
 }
 #btn{
 	font-size: 20px;
@@ -30,5 +32,40 @@ body{
 	left: 45%;
 	margin-bottom: 30px;
 	top: 20px;
+	background-color:#384041; 
+	color: #D4E0E2;
 }
+#effect
+{
+	display: none;
+
+}
+
+#btn:hover{
+	transition: 0.1s ease;
+		border-bottom: solid tomato 3px;
+	border-radius: 5px;
+	width: 100px;
+	height: 40px;
+	
+
+}
+#btn:hover #effect{
+	display: block;
+
+	position: absolute;
+	top: 7px;
+	left: 25px;
+	font-size: 20px;
+	margin-left: 5px;
+	
+}
+#btn:hover #icon{
+	position: absolute;
+	left: 8px;
+	top: 10px;
+	margin-right: 5px;
+	
+}
+
 
