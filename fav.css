@@ -3,69 +3,135 @@
 }
 body{
 	font-size: 16px;
-	background-color: black;
+	background-color: #21252D;
 }
 .row{
 	position: absolute;
-	top: 40px;
+	top: 50px;
 	width: 100%;
-	margin-left: 2.5%;
+	margin-left: 1%;
 	margin-top: 40px;
+
+
 }
 .col-md-4{
 	color: #E3E0D7;
 	background-color: grey;
-	width: 30%;
+	width: 32%;
 
 	padding:10px;
-	margin-right: 2.5%;
+	margin-right: 1%;
+	background-color: #0C0F12;
+	margin-top: 20px;
 }
 #icon{
 	margin-right: 2px;
-	font-size: 20px;
+	position: absolute;
+	top: 12px;
+	left: 25%;
+	font-size: 25px;
 
 	
 }
 #btn{
-	font-size: 20px;
+	font-size: 30px;
 	position: absolute;
 	left: 45%;
 	margin-bottom: 30px;
-	top: 20px;
+	top: 30px;
 	background-color:#384041; 
 	color: #D4E0E2;
+	border: solid 0.5px white;
 }
 #effect
 {
 	display: none;
+	position: relative;
+
 
 }
 
-#btn:hover{
-	transition: 0.1s ease;
-		border-bottom: solid tomato 3px;
+#btn{
+		
 	border-radius: 5px;
-	width: 100px;
-	height: 40px;
+	width: 50px;
+	height: 50px;
+	background-color: #0C0F12;
 	
+
+	
+
+}
+#btn:hover{
+	width: 100px;
+	height: 50px;
+	transition: 0.1s ease;
+	border: solid 0.5px white;
 
 }
 #btn:hover #effect{
 	display: block;
 
 	position: absolute;
-	top: 7px;
+	top: 9px;
 	left: 25px;
 	font-size: 20px;
-	margin-left: 5px;
+	margin-left: 10px;
+	transition: 0.1s ease;
+
+
 	
 }
 #btn:hover #icon{
 	position: absolute;
 	left: 8px;
 	top: 10px;
-	margin-right: 5px;
+	margin-right: 8px;
 	
 }
+
+.fav1{
+
+	font-size: 20px;
+	position: relative;
+	top: 45px;
+	
+	padding: : 5px;
+	padding-top: 0px;
+	height:870px;
+}
+.title{
+	font-size: 30px;
+	position: absolute;
+	top: -50px;
+	left: 10%;
+	color: white;
+	font-weight: bold;
+	font-family: 'roboto';
+	opacity: 0.8;
+	text-decoration: underline;
+	
+
+
+}
+.outside{
+	font-family: 'roboto';
+	font-size: 22px;
+	color: #FBBA09;
+	text-shadow: 1px 1px black;
+
+}
+.fav2{
+	font-size: 20px;
+	position: relative;
+	top: 45px;
+	
+	padding: : 5px;
+	padding-top: 0px;
+	height: 1200px;
+
+}
+
+
 
 
